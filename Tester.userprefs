@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\GUIEventsController.cs">
+    <Files>
+      <File FileName="Assets\Resources\Scripts\LevelRoadEndManager.cs" Line="12" Column="36" />
+      <File FileName="Assets\Resources\Scripts\LevelRoad.cs" Line="29" Column="42" />
+      <File FileName="Assets\Resources\Scripts\PlayerDestroyer.cs" Line="11" Column="25" />
+      <File FileName="Assets\Resources\Scripts\Scav.cs" Line="180" Column="82" />
+      <File FileName="Assets\Resources\Scripts\InventorySystem.cs" Line="337" Column="165" />
+      <File FileName="Assets\Resources\Scripts\GUIArmorChecker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\GUIEventsController.cs" Line="208" Column="31" />
+      <File FileName="Assets\Resources\Scripts\SaveSystem.cs" Line="144" Column="5" />
+      <File FileName="Assets\Resources\Scripts\Weapon.cs" Line="338" Column="19" />
+      <File FileName="Assets\Resources\Scripts\NullifyQuestChests.cs" Line="14" Column="35" />
+      <File FileName="Assets\Resources\Scripts\QuestGiver.cs" Line="32" Column="35" />
+      <File FileName="Assets\Resources\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="348" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

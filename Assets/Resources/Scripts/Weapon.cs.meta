@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 91f3026ae027a544b8f545978c997110
+timeCreated: 1571535507
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - data: {instanceID: 0}
+  - hitObject: {fileID: 100006, guid: 0438351a6e6422d43a09930e9be00ee9, type: 2}
+  - leftHand: {instanceID: 0}
+  - rightHand: {instanceID: 0}
+  - shootPos: {instanceID: 0}
+  - mag: {instanceID: 0}
+  - bolt: {instanceID: 0}
+  - sight: {instanceID: 0}
+  - view: {instanceID: 0}
+  - item: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

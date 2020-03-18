@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: cd5ab9765d2eb624a8b8f45e08b70782
+timeCreated: 1583107307
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Add
+    100002: Bridge
+    100004: BrokenWall
+    100006: BrokenWall.001
+    100008: BrokenWall.002
+    100010: BrokenWall.003
+    100012: //RootNode
+    100014: Map
+    100016: Stairs
+    100018: Stairs.001
+    100020: Stairs.002
+    100022: Stairs.003
+    100024: Stairs.004
+    100026: Stairs.005
+    100028: Sub
+    100030: Wireframe
+    400000: Add
+    400002: Bridge
+    400004: BrokenWall
+    400006: BrokenWall.001
+    400008: BrokenWall.002
+    400010: BrokenWall.003
+    400012: //RootNode
+    400014: Map
+    400016: Stairs
+    400018: Stairs.001
+    400020: Stairs.002
+    400022: Stairs.003
+    400024: Stairs.004
+    400026: Stairs.005
+    400028: Sub
+    400030: Wireframe
+    2300000: Add
+    2300002: Bridge
+    2300004: BrokenWall
+    2300006: BrokenWall.001
+    2300008: BrokenWall.002
+    2300010: BrokenWall.003
+    2300012: Map
+    2300014: Stairs
+    2300016: Stairs.001
+    2300018: Stairs.002
+    2300020: Stairs.003
+    2300022: Stairs.004
+    2300024: Stairs.005
+    2300026: Sub
+    2300028: Wireframe
+    3300000: Add
+    3300002: Bridge
+    3300004: BrokenWall
+    3300006: BrokenWall.001
+    3300008: BrokenWall.002
+    3300010: BrokenWall.003
+    3300012: Map
+    3300014: Stairs
+    3300016: Stairs.001
+    3300018: Stairs.002
+    3300020: Stairs.003
+    3300022: Stairs.004
+    3300024: Stairs.005
+    3300026: Sub
+    3300028: Wireframe
+    4300000: Stairs.005
+    4300002: Stairs.004
+    4300004: Stairs.003
+    4300006: Stairs.002
+    4300008: Stairs.001
+    4300010: Stairs
+    4300012: BrokenWall.003
+    4300014: BrokenWall
+    4300016: BrokenWall.002
+    4300018: Wireframe
+    4300020: BrokenWall.001
+    4300022: Bridge
+    4300024: Sub
+    4300026: Add
+    4300028: Map
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

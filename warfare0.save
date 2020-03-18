@@ -1,0 +1,611 @@
+{
+    "name": "3/17/2020 9:56:49 AM Quick Save",
+    "sceneName": "CityBase_0",
+    "playerData": {
+        "position": {
+            "x": 11.995001792907715,
+            "y": 0.05995564162731171,
+            "z": -4.504056930541992
+        },
+        "cameraRotation": {
+            "x": 0.004893833771348,
+            "y": 0.7820405960083008,
+            "z": 0.006141385063529015,
+            "w": -0.6231780648231506
+        },
+        "weaponsInInventory": [],
+        "itemsInInventory": [
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 4.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 11.0,
+                    "y": 2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.036585330963134769,
+                "offsetZ": -0.6077051758766174,
+                "pickable": false,
+                "name": "Medkit",
+                "tag": "Medkit",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "MedkitStandart",
+                "worldPosition": {
+                    "x": 10.788103103637696,
+                    "y": -0.862182080745697,
+                    "z": -4.453363418579102
+                },
+                "removable": true,
+                "sizeMultiplier": 0.699999988079071
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 12.0,
+                    "y": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.0013332366943359376,
+                "offsetZ": -0.5798129439353943,
+                "pickable": false,
+                "name": "Ammo",
+                "tag": "Ammo",
+                "rotated": false,
+                "maxCount": 120,
+                "currentCount": 120,
+                "keyName": "Rifle0Ammo.MagicalUse",
+                "worldPosition": {
+                    "x": 10.358468055725098,
+                    "y": -0.8245028853416443,
+                    "z": -5.225130558013916
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 4.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.03658294677734375,
+                "offsetZ": -0.6077098846435547,
+                "pickable": false,
+                "name": "Medkit",
+                "tag": "Medkit",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "MedkitStandart",
+                "worldPosition": {
+                    "x": 10.420774459838868,
+                    "y": -0.8621634840965271,
+                    "z": -4.9479522705078129
+                },
+                "removable": true,
+                "sizeMultiplier": 0.699999988079071
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 4.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 11.0,
+                    "y": 4.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.03658294677734375,
+                "offsetZ": -0.6077098846435547,
+                "pickable": false,
+                "name": "Medkit",
+                "tag": "Medkit",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "MedkitStandart",
+                "worldPosition": {
+                    "x": 10.344257354736329,
+                    "y": 0.18496184051036836,
+                    "z": -4.827081203460693
+                },
+                "removable": true,
+                "sizeMultiplier": 0.699999988079071
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 4.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 8.0,
+                    "y": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.03658294677734375,
+                "offsetZ": -0.6077098846435547,
+                "pickable": false,
+                "name": "Medkit",
+                "tag": "Medkit",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "MedkitStandart",
+                "worldPosition": {
+                    "x": 10.168437957763672,
+                    "y": 0.15761476755142213,
+                    "z": -4.9231953620910648
+                },
+                "removable": true,
+                "sizeMultiplier": 0.699999988079071
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 8.0,
+                    "y": 2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.0013332366943359376,
+                "offsetZ": -0.5798129439353943,
+                "pickable": false,
+                "name": "Ammo",
+                "tag": "Ammo",
+                "rotated": false,
+                "maxCount": 120,
+                "currentCount": 120,
+                "keyName": "Rifle0Ammo.MagicalUse",
+                "worldPosition": {
+                    "x": 10.526248931884766,
+                    "y": 0.41801267862319949,
+                    "z": -5.0691022872924809
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 3.0
+                },
+                "position": {
+                    "x": 5.0,
+                    "y": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": 0.054184913635253909,
+                "offsetZ": -0.7614842653274536,
+                "pickable": false,
+                "name": "Electronic components",
+                "tag": "ElectronicComponents",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "ElectronicComponents",
+                "worldPosition": {
+                    "x": 10.008371353149414,
+                    "y": 0.04707197844982147,
+                    "z": -5.106710433959961
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 3.0
+                },
+                "position": {
+                    "x": 5.0,
+                    "y": 3.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": 0.0541839599609375,
+                "offsetZ": -0.7614842653274536,
+                "pickable": false,
+                "name": "Electronic components",
+                "tag": "ElectronicComponents",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "ElectronicComponents",
+                "worldPosition": {
+                    "x": 10.028843879699707,
+                    "y": 0.36376768350601199,
+                    "z": -4.9603495597839359
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 3.0
+                },
+                "position": {
+                    "x": 2.0,
+                    "y": 2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": 0.05418539047241211,
+                "offsetZ": -0.7614831328392029,
+                "pickable": false,
+                "name": "Electronic components",
+                "tag": "ElectronicComponents",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "ElectronicComponents",
+                "worldPosition": {
+                    "x": 10.08140754699707,
+                    "y": 0.36327558755874636,
+                    "z": -5.086989402770996
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            }
+        ],
+        "currentWeapon": {
+            "data": {
+                "idlePosition": {
+                    "x": 0.30000001192092898,
+                    "y": -0.2716407775878906,
+                    "z": 0.6205682158470154
+                },
+                "idleRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "sightPosition": {
+                    "x": 0.015777587890625,
+                    "y": -0.24699974060058595,
+                    "z": 0.4964545667171478
+                },
+                "sightRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "downRecoil": 0.10000000149011612,
+                "upRecoil": 2.0,
+                "leftRecoil": 1.2999999523162842,
+                "rightRecoil": 1.2999999523162842,
+                "minimalRecoilPushBackPower": 0.30000001192092898,
+                "maximalRecoilPushBackPower": 1.0,
+                "fireRate": 550.0,
+                "damage": 70
+            },
+            "originalData": {
+                "idlePosition": {
+                    "x": 0.30000001192092898,
+                    "y": -0.2716407775878906,
+                    "z": 0.6205682158470154
+                },
+                "idleRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "sightPosition": {
+                    "x": 0.015777587890625,
+                    "y": -0.24699974060058595,
+                    "z": 0.4964545667171478
+                },
+                "sightRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "downRecoil": 0.10000000149011612,
+                "upRecoil": 2.0,
+                "leftRecoil": 1.2999999523162842,
+                "rightRecoil": 1.2999999523162842,
+                "minimalRecoilPushBackPower": 0.30000001192092898,
+                "maximalRecoilPushBackPower": 1.0,
+                "fireRate": 550.0,
+                "damage": 70
+            },
+            "rootPart": {
+                "name": "MainPart",
+                "id": 8,
+                "connections": [
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "AssaultMag",
+                            "id": 21,
+                            "connections": []
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "SightConnector",
+                            "id": 2,
+                            "connections": [
+                                {
+                                    "filled": true,
+                                    "filledPart": {
+                                        "name": "Sight",
+                                        "id": 10,
+                                        "connections": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "Barrel",
+                            "id": 3,
+                            "connections": []
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "LeftHandGrip",
+                            "id": 10,
+                            "connections": []
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "Pitch",
+                            "id": 3,
+                            "connections": [
+                                {
+                                    "filled": true,
+                                    "filledPart": {
+                                        "name": "PitchAddition",
+                                        "id": 1,
+                                        "connections": [
+                                            {
+                                                "filled": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "Stock",
+                            "id": 0,
+                            "connections": []
+                        }
+                    }
+                ]
+            },
+            "botCase": false,
+            "dropped": false,
+            "position": {
+                "x": 11.66989517211914,
+                "y": 0.8005326390266419,
+                "z": -4.4759721755981449
+            },
+            "rotation": {
+                "x": 0.0048448978923261169,
+                "y": 0.7820872068405151,
+                "z": 0.00607881648465991,
+                "w": -0.6231205463409424
+            },
+            "scale": {
+                "x": 0.4000001847743988,
+                "y": 0.3999999165534973,
+                "z": 0.4000002443790436
+            },
+            "item": {
+                "inventoryID": -1,
+                "containerID": 0,
+                "size": {
+                    "x": 5.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 10.0,
+                    "y": 2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.06527042388916016,
+                "offsetZ": -0.5058133006095886,
+                "pickable": false,
+                "name": "Assault Rifle Model 3",
+                "tag": "Weapon",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "AssaultRifle2",
+                "worldPosition": {
+                    "x": 11.66989517211914,
+                    "y": 0.8005326390266419,
+                    "z": -4.4759721755981449
+                },
+                "removable": true,
+                "sizeMultiplier": 1.0
+            },
+            "currentAmmo": 0
+        },
+        "character": {
+            "faction": "Player",
+            "godMode": false,
+            "killed": false,
+            "health": 100,
+            "armor": 0
+        }
+    },
+    "scavsCount": 5,
+    "scavsCountLimit": 5,
+    "droppedWeaponsData": [],
+    "droppedItemsData": [],
+    "questSystemSaveData": {
+        "quests": [
+            {
+                "completed": false,
+                "tag": "10MedkitsQuest",
+                "displayName": "Bring 10 medkits to the chest (green smoke)"
+            },
+            {
+                "completed": false,
+                "tag": "10WeaponsQuest",
+                "displayName": "Bring 10 weapons to the chest (green smoke)"
+            },
+            {
+                "completed": false,
+                "tag": "DestroyTheObstacle0",
+                "displayName": "Destroy the obstacle using tank (red smoke)"
+            }
+        ]
+    },
+    "questGiversSaveData": [],
+    "questChestsSaveData": [
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        }
+    ],
+    "destroyableObjectsSaveData": []
+}
