@@ -17,10 +17,10 @@ public class LevelRoadEndManager : MonoBehaviour {
 	}
 
 	void Update() {
-		if (requestPath != null && !destroyPlayer) {
+		if (requestPath != null && requestPath.Length > 1 && !destroyPlayer) {
+			GraphicsSettings.CheckLights ();
+			SaveSystem.instance.LoadQuests ();
 			if (GetLevelRoadEndPosition (requestPath) != Vector3.zero) {
-				GraphicsSettings.CheckLights ();
-				SaveSystem.instance.LoadQuests ();
 				Player.instance.transform.position = GetLevelRoadEndPosition (requestPath);
 				requestPath = null;
 				if (makeAutosave) {

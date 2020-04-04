@@ -125,6 +125,16 @@ public class Player : MonoBehaviour {
 				weapon.rigidBody.isKinematic = true;
 				handsAnimation.manipulator = weapon.gameObject;
 				inventory.containers [0].item = weapon.item;
+				weapon.gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+				MeshRenderer[] renderers = weapon.GetComponentsInChildren<MeshRenderer> ();
+				if (renderers != null) {
+					//for (int index = 0; index < weapon.transform.childCount; index++) {
+					//weapon.transform.GetChild (index).gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+					//}
+					foreach (MeshRenderer renderer in renderers) {
+						renderer.gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+					}
+				}
 			}
 		}
 	}
@@ -166,10 +176,30 @@ public class Player : MonoBehaviour {
 				weaponObject = weaponItem.gameObject;
 				hands.manipulator = weaponObject;
 				weapon.Initialize ();
+				weapon.gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+				MeshRenderer[] renderers = weapon.GetComponentsInChildren<MeshRenderer> ();
+				if (renderers != null) {
+					//for (int index = 0; index < weapon.transform.childCount; index++) {
+						//weapon.transform.GetChild (index).gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+					//}
+					foreach (MeshRenderer renderer in renderers) {
+						renderer.gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+					}
+				}
 			}
 		} else if (weaponItem == null && weapon != null) {
 			//Weapon weapon = weaponObject.GetComponent<Weapon> ();
 			weapon.rigidBody.detectCollisions = true;
+			weapon.gameObject.layer = LayerMask.NameToLayer ("Default");
+			MeshRenderer[] renderers = weapon.GetComponentsInChildren<MeshRenderer> ();
+			if (renderers != null) {
+				//for (int index = 0; index < weapon.transform.childCount; index++) {
+				//weapon.transform.GetChild (index).gameObject.layer = LayerMask.NameToLayer ("Gun layer");
+				//}
+				foreach (MeshRenderer renderer in renderers) {
+					renderer.gameObject.layer = LayerMask.NameToLayer ("Default");
+				}
+			}
 			hands.manipulator = null;
 			if (weapon.dropped) {
 				weaponObject = null;

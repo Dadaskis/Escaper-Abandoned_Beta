@@ -41,14 +41,16 @@ public class ItemManager : MonoBehaviour {
 				if (item.gameObject.transform.parent != null) {
 					continue;
 				}
-				if (Vector3.Distance (Player.instance.transform.position, item.transform.position) < minDistance) {
-					continue;
-				}
-				RaycastHit hit;
-				if (Physics.Linecast (Player.instance.transform.position, item.transform.position, out hit)) {
-					if (hit.collider.transform.root != item.transform.root) {
-						Destroy (item.gameObject);
+				if (Player.instance != null) {
+					if (Vector3.Distance (Player.instance.transform.position, item.transform.position) < minDistance) {
 						continue;
+					}
+					RaycastHit hit;
+					if (Physics.Linecast (Player.instance.transform.position, item.transform.position, out hit)) {
+						if (hit.collider.transform.root != item.transform.root) {
+							Destroy (item.gameObject);
+							continue;
+						}
 					}
 				}
 			}

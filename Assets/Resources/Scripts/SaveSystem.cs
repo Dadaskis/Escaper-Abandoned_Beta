@@ -149,11 +149,10 @@ public class SaveSystem : MonoBehaviour {
 				Destroy (scav.gameObject);
 			}
 
-			LoadQuests ();
-			LoadDroppedItems ();
-			//LoadScavs ();
-			LoadDroppedWeapons ();
-			Scav.countLimit = save.scavsCountLimit;
+			DeathPlayerObject deathObj = FindObjectOfType<DeathPlayerObject> ();
+			if (deathObj != null) {
+				Destroy (deathObj.gameObject);
+			}
 
 			if (Player.instance == null) {
 				Instantiate (playerSpawnObject);
@@ -161,11 +160,15 @@ public class SaveSystem : MonoBehaviour {
 			Player.instance.killed = false;
 			Player.instance.Load (save.playerData);
 
-			GameObject obj = FindObjectOfType<DeathPlayerObject> ().gameObject;
-			if (obj != null) {
-				Destroy (obj);
+			if (Player.instance.GetComponent<Camera> () != null) {
+				Player.instance.GetComponent<Camera> ().enabled = true;
 			}
-			Player.instance.GetComponentInChildren<Camera> ().enabled = true;
+
+			LoadQuests ();
+			LoadDroppedItems ();
+			//LoadScavs ();
+			LoadDroppedWeapons ();
+			Scav.countLimit = save.scavsCountLimit;
 		}
 	}
 
@@ -251,11 +254,11 @@ public class SaveSystem : MonoBehaviour {
 	public void SaveQuests() {
 		save.questSystemSaveData = QuestSystem.instance.Save ();
 
-		QuestGiver[] questGivers = FindObjectsOfType<QuestGiver> ();
-		save.questGiversSaveData.Clear ();
-		foreach (QuestGiver questGiver in questGivers) {
-			save.questGiversSaveData.Add (questGiver.Save ());
-		}
+		//QuestGiver[] questGivers = FindObjectsOfType<QuestGiver> ();
+		//save.questGiversSaveData.Clear ();
+		//foreach (QuestGiver questGiver in questGivers) {
+		//	save.questGiversSaveData.Add (questGiver.Save ());
+		//}
 
 		QuestChest[] questChests = FindObjectsOfType<QuestChest> ();
 		//save.questChestsSaveData.Clear ();
@@ -270,6 +273,11 @@ public class SaveSystem : MonoBehaviour {
 		//foreach (QuestGiver questGiver in questGivers) {
 		//	questGiver.Load (save.questGiversSaveData [index]);
 		//	index++;
+		//}
+
+		//Debug.Log (save.questSystemSaveData);
+		//foreach (QuestSaveData quest in save.questSystemSaveData.quests) {
+		//	Debug.Log (quest.tag);
 		//}
 
 		QuestChest[] questChests = FindObjectsOfType<QuestChest> ();
@@ -367,15 +375,17 @@ public class SaveSystem : MonoBehaviour {
 		if (weapon == null) {
 			weapon = beginTransform.GetComponentInChildren<Weapon> ();
 		}
-		weapon.data = data.originalData.GetScriptableObject();
-		weapon.originalData = data.originalData.GetScriptableObject ();
-		weapon.botCase = data.botCase;
-		weapon.dropped = data.dropped;
-		weapon.currentAmmo = data.currentAmmo;
-		weapon.rigidBody = weapon.GetComponent<Rigidbody> ();
-		rootTransform.localScale = data.scale;
-		weapon.Initialize ();
-		weapon.item.Render ();
+		if (weapon != null) {
+			weapon.data = data.originalData.GetScriptableObject ();
+			weapon.originalData = data.originalData.GetScriptableObject ();
+			weapon.botCase = data.botCase;
+			weapon.dropped = data.dropped;
+			weapon.currentAmmo = data.currentAmmo;
+			weapon.rigidBody = weapon.GetComponent<Rigidbody> ();
+			rootTransform.localScale = data.scale;
+			weapon.Initialize ();
+			weapon.item.Render ();
+		}
 		return weapon;
 	}
 
@@ -395,11 +405,15 @@ public class SaveSystem : MonoBehaviour {
 		System.IO.File.WriteAllText("InputSettings.save", JsonUtility.ToJson (settings.GetSerializableVariant()));
 	}
 
-	public void LoadInputSettings() { 
-		string json = System.IO.File.ReadAllText ("InputSettings.save");
-		if (json.Length > 2) {
-			SerializableKeyValues<string, int> data = JsonUtility.FromJson<SerializableKeyValues<string, int>> (json);
-			InputManager.instance.keys.SetFromSerializableVariant(data);
+	public void LoadInputSettings() { 		
+		try{
+			string json = System.IO.File.ReadAllText ("InputSettings.save");
+			if (json.Length > 2) {
+				SerializableKeyValues<string, int> data = JsonUtility.FromJson<SerializableKeyValues<string, int>> (json);
+				InputManager.instance.keys.SetFromSerializableVariant(data);
+			}
+		}catch(System.Exception ex) {
+			Debug.LogWarning ("This shit with loading InputSettings file happens again!");
 		}
 	}
 }

@@ -22,7 +22,7 @@ public class QuestGiver : MonoBehaviour {
 		data.questAdded = questAdded;
 	}
 
-	void OnTriggerEnter(Collider collider) {
+	void OnTriggerStay(Collider collider) {
 		if (questAdded == true) {
 			return;
 		}

@@ -31,6 +31,7 @@ public class GUIEventsController : MonoBehaviour {
 	public Toggle colorGradingEnabled;
 
 	public GameObject destroySingletons;
+	public GameObject player;
 
 	[System.Serializable]
 	public class KeyButtonData {
@@ -206,7 +207,9 @@ public class GUIEventsController : MonoBehaviour {
 
 	public void SelectSave(int index) {
 		Destroy (destroySingletons);
+		Instantiate (player);
 		SaveSystem.instance.Load (index);
+		GraphicsSettings.CheckLights ();
 	}
 
 	public void OnSelectSave0(){

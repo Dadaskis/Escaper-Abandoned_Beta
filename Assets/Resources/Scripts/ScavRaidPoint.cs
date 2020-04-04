@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScavRaidPoint : MonoBehaviour {
 
 	void Start () {
-		ScavLogic.Raids.Add (this.transform.position);	
+		//ScavLogic.Raids.Add (this.transform.position);	
 	}
 
 }

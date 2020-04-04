@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4044811331674958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftHand1_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4651812319953384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftHand1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4800510894663122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftLeg0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4035502412320470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightHand1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4119998417378126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,7 +375,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4762074789030980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLeg0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -390,8 +390,24 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4886121285388070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Armature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1392538202874532
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4952802807884844}
+  - component: {fileID: 20112457996388978}
+  m_Layer: 8
+  m_Name: GunCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -462,7 +478,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4567657242877288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +509,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4871648362930788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftHand0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +540,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4231274620715816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +557,7 @@ GameObject:
   - component: {fileID: 4209340119556762}
   - component: {fileID: 95134336423584390}
   - component: {fileID: 114999721976659738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -573,7 +589,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4213125254315730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightHand0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +604,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4828252312286310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightHand1_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -644,7 +660,7 @@ GameObject:
   - component: {fileID: 114502185237529726}
   - component: {fileID: 114413098768115388}
   - component: {fileID: 114542374290458890}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -659,7 +675,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4114163354783738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +690,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4891951065953884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftFoot_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +705,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4771954748246530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,7 +721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4404702566040296}
   - component: {fileID: 114353128156447636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WeaponHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -720,7 +736,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4891116495184706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +751,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4236675836334284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4015259351121114}
   - component: {fileID: 137882251502322240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +782,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4535508906777312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -831,7 +847,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4697629829058728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightFoot_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -993,7 +1009,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1463439828905582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.906411, y: -1.0000012, z: -4.9225373}
+  m_LocalPosition: {x: -1.0798436, y: -1.0000011, z: -2.9602206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4108955606812458}
@@ -1354,6 +1370,7 @@ Transform:
   - {fileID: 4209340119556762}
   - {fileID: 4404702566040296}
   - {fileID: 224687774521776166}
+  - {fileID: 4952802807884844}
   m_Father: {fileID: 4101738313629688}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1523,6 +1540,19 @@ Transform:
   m_Father: {fileID: 4535508906777312}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4952802807884844
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392538202874532}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4658702934583776}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4953095961410276
 Transform:
   m_ObjectHideFlags: 1
@@ -1585,6 +1615,42 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
+--- !u!20 &20112457996388978
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392538202874532}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 90
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 768
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 1
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
 --- !u!20 &20535338773052114
 Camera:
   m_ObjectHideFlags: 1
@@ -1614,8 +1680,8 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 0
+  m_HDR: 1
+  m_AllowMSAA: 1
   m_ForceIntoRT: 1
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -2302,8 +2368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23406bf2799a76a4494a05c158a9c4c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 0.9
-  rotationPower: 0.35
+  rotationPower: 6
 --- !u!114 &114353856037937432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2343,7 +2408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRaidPointDelay: 30
-  raidPointPlayerDistance: 20
+  raidPointPlayerDistance: 3
   scavSpawnDistanceToPlayer: 150
   spawnScavDelay: 30
   scavs:
@@ -2366,7 +2431,7 @@ MonoBehaviour:
     m_Bits: 256
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 0
+  antialiasingMode: 1
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -2375,7 +2440,7 @@ MonoBehaviour:
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
-    fastMode: 0
+    fastMode: 1
     keepAlpha: 0
   fog:
     enabled: 1
@@ -2627,6 +2692,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b34098e337c4e9643b79c88b6bd81e2f, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  m_Camera: {fileID: 20535338773052114}
   enableMouseLook: 0
   targetHeight: 1.9
   crouchHeight: 0.7

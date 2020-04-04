@@ -133,13 +133,15 @@ public class Scav : MonoBehaviour {
 				if (Vector3.Distance (transform.position, anotherCharacter.transform.position) > 200.0f) {
 					continue;
 				}
+				if (anotherCharacter.faction == character.faction) { 
+					continue;
+				}
 				RaycastHit hit;
 				bool hitSomething = Physics.Linecast (transform.position, anotherCharacter.transform.position, out hit);
 				if (
 					Vector3.Angle (anotherCharacter.transform.position - transform.position, transform.forward) <= FOV &&
 					hitSomething &&
-					hit.collider.transform.root == anotherCharacter.transform.root &&
-					anotherCharacter.faction != character.faction) {
+					hit.collider.transform.root == anotherCharacter.transform.root) {
 					status = ScavStatus.ENEMY_DETECTED;
 					enemy = anotherCharacter;
 				} else if(hitSomething){
@@ -245,17 +247,17 @@ public class Scav : MonoBehaviour {
 	}
 		
 	void Update () {
-		if (Scav.count > Scav.countLimit) {
-			Destroy (this.gameObject);
+		if (Scav.count - 1 > Scav.countLimit) {
 			Scav.count--;
+			Destroy (this.gameObject);
 		}
 
-		if (Player.instance != null) {
-			if (Vector3.Distance (transform.position, Player.instance.transform.position) > ScavLogic.instance.scavSpawnDistanceToPlayer * 1.2f) {
-				Destroy (this.gameObject);
-				Scav.count--;
-			}
-		}
+		//if (Player.instance != null) {
+		//	if (Vector3.Distance (transform.position, Player.instance.transform.position) > ScavLogic.instance.scavSpawnDistanceToPlayer * 1.2f) {
+		//		Scav.count--;
+		//		Destroy (this.gameObject);
+		//	}
+		//}
 
 		if (weapon == null) {
 			weapon = GetComponentInChildren<Weapon> ();
@@ -315,11 +317,9 @@ public class Scav : MonoBehaviour {
 			} else {				
 				if (!wait) {
 					if (!agent.pathPending && agent.remainingDistance < 5.0f) {
-						if (status == ScavStatus.BASE_WALK) {
+						if (status == ScavStatus.RAID_WALK) {
 							WaitAndWalkToRaidPoint ();
-						} else if (status == ScavStatus.RAID_WALK) {
-							WaitAndWalkToBasePoint ();
-						}
+						} 
 					}
 				}
 			}

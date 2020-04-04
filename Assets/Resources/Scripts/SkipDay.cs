@@ -12,6 +12,10 @@ public class SkipDay : MonoBehaviour {
 
 	private bool worked = false;
 
+	void Start() {
+		GraphicsSettings.CheckLights ();
+	}
+
 	void Update() {
 		timer += Time.deltaTime;
 	}
@@ -21,10 +25,11 @@ public class SkipDay : MonoBehaviour {
 			return;
 		}
 		if (!worked) {
-			if (timer > 2.0f) {
+			if (timer > 20.0f) {
 				if (QuestSystem.instance.quests.Count <= 0) {
 					worked = true;
 					SceneManager.LoadScene (sceneName);
+					GraphicsSettings.CheckLights ();
 					Instantiate (uiStory, Player.instance.uiCanvas.transform);
 					Instantiate (spawn);
 				}

@@ -1,17 +1,17 @@
 {
-    "name": "3/17/2020 9:56:49 AM Quick Save",
-    "sceneName": "CityBase_0",
+    "name": "4/3/2020 10:16:01 AM Auto Save",
+    "sceneName": "CityUndergroundLaboratory_4",
     "playerData": {
         "position": {
-            "x": 11.995001792907715,
-            "y": 0.05995564162731171,
-            "z": -4.504056930541992
+            "x": 23.0,
+            "y": 251.0,
+            "z": -27.5
         },
         "cameraRotation": {
-            "x": 0.004893833771348,
-            "y": 0.7820405960083008,
-            "z": 0.006141385063529015,
-            "w": -0.6231780648231506
+            "x": -0.06270217150449753,
+            "y": -0.780220091342926,
+            "z": 0.07925233989953995,
+            "w": -0.6172877550125122
         },
         "weaponsInInventory": [],
         "itemsInInventory": [
@@ -24,40 +24,6 @@
                 },
                 "position": {
                     "x": 11.0,
-                    "y": 2.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": -0.036585330963134769,
-                "offsetZ": -0.6077051758766174,
-                "pickable": false,
-                "name": "Medkit",
-                "tag": "Medkit",
-                "rotated": false,
-                "maxCount": 1,
-                "currentCount": 1,
-                "keyName": "MedkitStandart",
-                "worldPosition": {
-                    "x": 10.788103103637696,
-                    "y": -0.862182080745697,
-                    "z": -4.453363418579102
-                },
-                "removable": true,
-                "sizeMultiplier": 0.699999988079071
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 3.0,
-                    "y": 2.0
-                },
-                "position": {
-                    "x": 12.0,
                     "y": 0.0
                 },
                 "rotation": {
@@ -66,42 +32,8 @@
                     "z": 0.0,
                     "w": 0.7071067690849304
                 },
-                "offsetX": -0.0013332366943359376,
-                "offsetZ": -0.5798129439353943,
-                "pickable": false,
-                "name": "Ammo",
-                "tag": "Ammo",
-                "rotated": false,
-                "maxCount": 120,
-                "currentCount": 120,
-                "keyName": "Rifle0Ammo.MagicalUse",
-                "worldPosition": {
-                    "x": 10.358468055725098,
-                    "y": -0.8245028853416443,
-                    "z": -5.225130558013916
-                },
-                "removable": true,
-                "sizeMultiplier": 0.5
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 4.0,
-                    "y": 2.0
-                },
-                "position": {
-                    "x": 0.0,
-                    "y": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": -0.03658294677734375,
-                "offsetZ": -0.6077098846435547,
+                "offsetX": -0.036586761474609378,
+                "offsetZ": -0.6077035665512085,
                 "pickable": false,
                 "name": "Medkit",
                 "tag": "Medkit",
@@ -110,9 +42,9 @@
                 "currentCount": 1,
                 "keyName": "MedkitStandart",
                 "worldPosition": {
-                    "x": 10.420774459838868,
-                    "y": -0.8621634840965271,
-                    "z": -4.9479522705078129
+                    "x": 24.551937103271486,
+                    "y": 251.1649169921875,
+                    "z": -27.758319854736329
                 },
                 "removable": true,
                 "sizeMultiplier": 0.699999988079071
@@ -126,7 +58,7 @@
                 },
                 "position": {
                     "x": 11.0,
-                    "y": 4.0
+                    "y": 2.0
                 },
                 "rotation": {
                     "x": 0.0,
@@ -134,8 +66,8 @@
                     "z": 0.0,
                     "w": 0.7071067690849304
                 },
-                "offsetX": -0.03658294677734375,
-                "offsetZ": -0.6077098846435547,
+                "offsetX": -0.036586761474609378,
+                "offsetZ": -0.6077035665512085,
                 "pickable": false,
                 "name": "Medkit",
                 "tag": "Medkit",
@@ -144,190 +76,20 @@
                 "currentCount": 1,
                 "keyName": "MedkitStandart",
                 "worldPosition": {
-                    "x": 10.344257354736329,
-                    "y": 0.18496184051036836,
-                    "z": -4.827081203460693
+                    "x": 25.154930114746095,
+                    "y": 251.12496948242188,
+                    "z": -28.25136947631836
                 },
                 "removable": true,
                 "sizeMultiplier": 0.699999988079071
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 4.0,
-                    "y": 2.0
-                },
-                "position": {
-                    "x": 8.0,
-                    "y": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": -0.03658294677734375,
-                "offsetZ": -0.6077098846435547,
-                "pickable": false,
-                "name": "Medkit",
-                "tag": "Medkit",
-                "rotated": false,
-                "maxCount": 1,
-                "currentCount": 1,
-                "keyName": "MedkitStandart",
-                "worldPosition": {
-                    "x": 10.168437957763672,
-                    "y": 0.15761476755142213,
-                    "z": -4.9231953620910648
-                },
-                "removable": true,
-                "sizeMultiplier": 0.699999988079071
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 3.0,
-                    "y": 2.0
-                },
-                "position": {
-                    "x": 8.0,
-                    "y": 2.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": -0.0013332366943359376,
-                "offsetZ": -0.5798129439353943,
-                "pickable": false,
-                "name": "Ammo",
-                "tag": "Ammo",
-                "rotated": false,
-                "maxCount": 120,
-                "currentCount": 120,
-                "keyName": "Rifle0Ammo.MagicalUse",
-                "worldPosition": {
-                    "x": 10.526248931884766,
-                    "y": 0.41801267862319949,
-                    "z": -5.0691022872924809
-                },
-                "removable": true,
-                "sizeMultiplier": 0.5
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 3.0,
-                    "y": 3.0
-                },
-                "position": {
-                    "x": 5.0,
-                    "y": 0.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": 0.054184913635253909,
-                "offsetZ": -0.7614842653274536,
-                "pickable": false,
-                "name": "Electronic components",
-                "tag": "ElectronicComponents",
-                "rotated": false,
-                "maxCount": 1,
-                "currentCount": 1,
-                "keyName": "ElectronicComponents",
-                "worldPosition": {
-                    "x": 10.008371353149414,
-                    "y": 0.04707197844982147,
-                    "z": -5.106710433959961
-                },
-                "removable": true,
-                "sizeMultiplier": 0.5
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 3.0,
-                    "y": 3.0
-                },
-                "position": {
-                    "x": 5.0,
-                    "y": 3.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": 0.0541839599609375,
-                "offsetZ": -0.7614842653274536,
-                "pickable": false,
-                "name": "Electronic components",
-                "tag": "ElectronicComponents",
-                "rotated": false,
-                "maxCount": 1,
-                "currentCount": 1,
-                "keyName": "ElectronicComponents",
-                "worldPosition": {
-                    "x": 10.028843879699707,
-                    "y": 0.36376768350601199,
-                    "z": -4.9603495597839359
-                },
-                "removable": true,
-                "sizeMultiplier": 0.5
-            },
-            {
-                "inventoryID": 0,
-                "containerID": -1,
-                "size": {
-                    "x": 3.0,
-                    "y": 3.0
-                },
-                "position": {
-                    "x": 2.0,
-                    "y": 2.0
-                },
-                "rotation": {
-                    "x": 0.0,
-                    "y": 0.7071067690849304,
-                    "z": 0.0,
-                    "w": 0.7071067690849304
-                },
-                "offsetX": 0.05418539047241211,
-                "offsetZ": -0.7614831328392029,
-                "pickable": false,
-                "name": "Electronic components",
-                "tag": "ElectronicComponents",
-                "rotated": false,
-                "maxCount": 1,
-                "currentCount": 1,
-                "keyName": "ElectronicComponents",
-                "worldPosition": {
-                    "x": 10.08140754699707,
-                    "y": 0.36327558755874636,
-                    "z": -5.086989402770996
-                },
-                "removable": true,
-                "sizeMultiplier": 0.5
             }
         ],
         "currentWeapon": {
             "data": {
                 "idlePosition": {
-                    "x": 0.30000001192092898,
-                    "y": -0.2716407775878906,
-                    "z": 0.6205682158470154
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                 },
                 "idleRotation": {
                     "x": 0.0,
@@ -336,9 +98,9 @@
                     "w": 0.0
                 },
                 "sightPosition": {
-                    "x": 0.015777587890625,
-                    "y": -0.24699974060058595,
-                    "z": 0.4964545667171478
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                 },
                 "sightRotation": {
                     "x": 0.0,
@@ -346,20 +108,20 @@
                     "z": 0.0,
                     "w": 0.0
                 },
-                "downRecoil": 0.10000000149011612,
-                "upRecoil": 2.0,
-                "leftRecoil": 1.2999999523162842,
-                "rightRecoil": 1.2999999523162842,
-                "minimalRecoilPushBackPower": 0.30000001192092898,
-                "maximalRecoilPushBackPower": 1.0,
-                "fireRate": 550.0,
-                "damage": 70
+                "downRecoil": 0.0,
+                "upRecoil": 0.0,
+                "leftRecoil": 0.0,
+                "rightRecoil": 0.0,
+                "minimalRecoilPushBackPower": 0.0,
+                "maximalRecoilPushBackPower": 0.0,
+                "fireRate": 0.0,
+                "damage": 0
             },
             "originalData": {
                 "idlePosition": {
-                    "x": 0.30000001192092898,
-                    "y": -0.2716407775878906,
-                    "z": 0.6205682158470154
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                 },
                 "idleRotation": {
                     "x": 0.0,
@@ -368,9 +130,9 @@
                     "w": 0.0
                 },
                 "sightPosition": {
-                    "x": 0.015777587890625,
-                    "y": -0.24699974060058595,
-                    "z": 0.4964545667171478
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                 },
                 "sightRotation": {
                     "x": 0.0,
@@ -378,139 +140,68 @@
                     "z": 0.0,
                     "w": 0.0
                 },
-                "downRecoil": 0.10000000149011612,
-                "upRecoil": 2.0,
-                "leftRecoil": 1.2999999523162842,
-                "rightRecoil": 1.2999999523162842,
-                "minimalRecoilPushBackPower": 0.30000001192092898,
-                "maximalRecoilPushBackPower": 1.0,
-                "fireRate": 550.0,
-                "damage": 70
+                "downRecoil": 0.0,
+                "upRecoil": 0.0,
+                "leftRecoil": 0.0,
+                "rightRecoil": 0.0,
+                "minimalRecoilPushBackPower": 0.0,
+                "maximalRecoilPushBackPower": 0.0,
+                "fireRate": 0.0,
+                "damage": 0
             },
             "rootPart": {
-                "name": "MainPart",
-                "id": 8,
-                "connections": [
-                    {
-                        "filled": true,
-                        "filledPart": {
-                            "name": "AssaultMag",
-                            "id": 21,
-                            "connections": []
-                        }
-                    },
-                    {
-                        "filled": true,
-                        "filledPart": {
-                            "name": "SightConnector",
-                            "id": 2,
-                            "connections": [
-                                {
-                                    "filled": true,
-                                    "filledPart": {
-                                        "name": "Sight",
-                                        "id": 10,
-                                        "connections": []
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "filled": true,
-                        "filledPart": {
-                            "name": "Barrel",
-                            "id": 3,
-                            "connections": []
-                        }
-                    },
-                    {
-                        "filled": true,
-                        "filledPart": {
-                            "name": "LeftHandGrip",
-                            "id": 10,
-                            "connections": []
-                        }
-                    },
-                    {
-                        "filled": true,
-                        "filledPart": {
-                            "name": "Pitch",
-                            "id": 3,
-                            "connections": [
-                                {
-                                    "filled": true,
-                                    "filledPart": {
-                                        "name": "PitchAddition",
-                                        "id": 1,
-                                        "connections": [
-                                            {
-                                                "filled": true
-                                            }
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "filled": true,
-                        "filledPart": {
-                            "name": "Stock",
-                            "id": 0,
-                            "connections": []
-                        }
-                    }
-                ]
+                "name": "",
+                "id": 0,
+                "connections": []
             },
             "botCase": false,
             "dropped": false,
             "position": {
-                "x": 11.66989517211914,
-                "y": 0.8005326390266419,
-                "z": -4.4759721755981449
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
             },
             "rotation": {
-                "x": 0.0048448978923261169,
-                "y": 0.7820872068405151,
-                "z": 0.00607881648465991,
-                "w": -0.6231205463409424
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
             },
             "scale": {
-                "x": 0.4000001847743988,
-                "y": 0.3999999165534973,
-                "z": 0.4000002443790436
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
             },
             "item": {
                 "inventoryID": -1,
-                "containerID": 0,
+                "containerID": -1,
                 "size": {
-                    "x": 5.0,
-                    "y": 2.0
+                    "x": 1.0,
+                    "y": 1.0
                 },
                 "position": {
-                    "x": 10.0,
-                    "y": 2.0
+                    "x": 0.0,
+                    "y": 0.0
                 },
                 "rotation": {
                     "x": 0.0,
-                    "y": 0.7071067690849304,
+                    "y": 0.0,
                     "z": 0.0,
-                    "w": 0.7071067690849304
+                    "w": 1.0
                 },
-                "offsetX": -0.06527042388916016,
-                "offsetZ": -0.5058133006095886,
-                "pickable": false,
-                "name": "Assault Rifle Model 3",
-                "tag": "Weapon",
+                "offsetX": 0.0,
+                "offsetZ": 0.0,
+                "pickable": true,
+                "name": "",
+                "tag": "",
                 "rotated": false,
                 "maxCount": 1,
                 "currentCount": 1,
-                "keyName": "AssaultRifle2",
+                "keyName": "",
                 "worldPosition": {
-                    "x": 11.66989517211914,
-                    "y": 0.8005326390266419,
-                    "z": -4.4759721755981449
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
                 },
                 "removable": true,
                 "sizeMultiplier": 1.0
@@ -521,8 +212,8 @@
             "faction": "Player",
             "godMode": false,
             "killed": false,
-            "health": 100,
-            "armor": 0
+            "health": 44,
+            "armor": -1
         }
     },
     "scavsCount": 5,
@@ -533,79 +224,814 @@
         "quests": [
             {
                 "completed": false,
-                "tag": "10MedkitsQuest",
-                "displayName": "Bring 10 medkits to the chest (green smoke)"
-            },
-            {
-                "completed": false,
-                "tag": "10WeaponsQuest",
-                "displayName": "Bring 10 weapons to the chest (green smoke)"
-            },
-            {
-                "completed": false,
-                "tag": "DestroyTheObstacle0",
-                "displayName": "Destroy the obstacle using tank (red smoke)"
+                "tag": "Escape",
+                "displayName": "Find an escape point in laboratory"
             }
         ]
     },
-    "questGiversSaveData": [],
-    "questChestsSaveData": [
+    "questGiversSaveData": [
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": true
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": true
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": true
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": true
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": true
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": true
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
+            "questAdded": false
         },
         {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": false
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
+        },
+        {
+            "questAdded": true
         }
     ],
+    "questChestsSaveData": [],
     "destroyableObjectsSaveData": []
 }

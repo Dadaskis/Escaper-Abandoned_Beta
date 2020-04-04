@@ -5,10 +5,6 @@ using UnityEngine.AI;
 
 public class ScavLogic : MonoBehaviour {
 
-	private List<Vector3> spawnPoints = new List<Vector3>();
-	private List<Vector3> basePoints = new List<Vector3>();
-	private List<Vector3> raidPoints = new List<Vector3>();
-
 	public static ScavLogic instance;
 
 	public float updateRaidPointDelay = 60.0f;
@@ -25,29 +21,19 @@ public class ScavLogic : MonoBehaviour {
 		instance = this;
 	}
 
-	public static List<Vector3> Spawns {
-		get {
-			return instance.spawnPoints;
-		}
-	}
-
-	public static List<Vector3> Bases {
-		get {
-			return instance.basePoints;
-		}
-	}
-
-	public static List<Vector3> Raids {
-		get {
-			return instance.raidPoints;
-		}
-	}
-
 	private Vector3 raidPoint = new Vector3 ();
 
 	Vector3 GetRandomPositionOnNavMesh(float radius) {
 		Vector3 randomDirection = Random.onUnitSphere * radius;
 		if (Player.instance != null) {
+			int counter = 0;
+			while (Vector3.Angle (randomDirection, Player.instance.transform.forward) <= 100) {
+				randomDirection = Random.onUnitSphere * radius;
+				counter++;
+				if (counter > 10) {
+					break;
+				}
+			}
 			randomDirection += Player.instance.transform.position;
 		}
 		NavMeshHit hit;
@@ -75,8 +61,8 @@ public class ScavLogic : MonoBehaviour {
 			Vector3 playerPosition = Player.instance.transform.position;
 			if (Scav.count < Scav.countLimit) {
 				Vector3 spawnPosition;// = GetRandomPositionOnNavMesh (scavSpawnDistanceToPlayer);
-				for (int counter = 0; counter < Scav.countLimit - Scav.count; counter++) {
-					if (Scav.count > Scav.countLimit) {
+				for (int counter = 0; counter < Scav.countLimit; counter++) {
+					if (Scav.count >= Scav.countLimit) {
 						break;
 					}
 					spawnPosition = GetRandomPositionOnNavMesh (scavSpawnDistanceToPlayer);

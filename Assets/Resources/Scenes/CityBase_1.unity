@@ -166,7 +166,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh67556
+  m_Name: pb_Mesh107318
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CityBase_2
   uiStory: {fileID: 1523786034320782, guid: 5106cc0bfe924b4439c07168e18737b0, type: 2}
-  spawn: {fileID: 1166690185457208, guid: 25014e3dc86356b4aa06b19fc4e3773a, type: 2}
+  spawn: {fileID: 1166690185457208, guid: 4659195ebc6a6154abfd76d5aafb8b10, type: 2}
   timer: 0
 --- !u!64 &293191317
 MeshCollider:
@@ -1180,7 +1180,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh808714
+  m_Name: pb_Mesh107436
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -1576,8 +1576,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1463439828905582, guid: 5ce9af1497543534e82c2f1a29c9777b, type: 2}
-  uiOnStart: {fileID: 1523786034320782, guid: 3321c1a9952ef20418be22a3f2c18b4d, type: 2}
-  worldStuff: {fileID: 1065131452880850, guid: f9050473dd445c546a6da77196784517, type: 2}
+  uiOnStart: {fileID: 1523786034320782, guid: ea98fd13aca68f94b83cb674523ec00e, type: 2}
+  worldStuff: {fileID: 1166690185457208, guid: 25014e3dc86356b4aa06b19fc4e3773a, type: 2}
 --- !u!4 &1263413843
 Transform:
   m_ObjectHideFlags: 0
@@ -1835,6 +1835,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CityLiveSector2_1
   roadEndName: CityBase_0 to CityLiveSector2_0 [0]
+  makeAutosave: 1
+  destroyPlayer: 0
 --- !u!64 &1918753479
 MeshCollider:
   m_ObjectHideFlags: 0
