@@ -1,7 +1,3 @@
-Here's a rewritten version as if you're describing your own project:
-
----
-
 ### Escaper - Abandoned Beta
 
 This is my unfinished Unity 5.6 project - a first-person survival shooter I've been working on (the very first Unity game as well). The "Beta" tag means it's a work in progress (I'm not working on that anymore though), but most of the core systems are functional.
