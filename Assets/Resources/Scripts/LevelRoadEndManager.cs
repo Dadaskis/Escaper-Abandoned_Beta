@@ -20,8 +20,18 @@ public class LevelRoadEndManager : MonoBehaviour {
 		if (requestPath != null && requestPath.Length > 1 && !destroyPlayer) {
 			GraphicsSettings.CheckLights ();
 			SaveSystem.instance.LoadQuests ();
-			if (GetLevelRoadEndPosition (requestPath) != Vector3.zero) {
-				Player.instance.transform.position = GetLevelRoadEndPosition (requestPath);
+
+			Vector3 spawnPosition = GetLevelRoadEndPosition(requestPath);
+			if (spawnPosition != Vector3.zero) {
+				Player player = Player.instance;
+				player.transform.position = spawnPosition;
+
+				// Apply rotation and reset velocity from the LevelRoadEnd
+				LevelRoadEnd end = GetLevelRoadEnd(requestPath);
+				if (end != null) {
+					end.ApplyToPlayer(player);
+				}
+
 				requestPath = null;
 				if (makeAutosave) {
 					SaveSystem.instance.AutoSave ();
@@ -29,6 +39,16 @@ public class LevelRoadEndManager : MonoBehaviour {
 				Scav.count = 0;
 			}
 		}
+	}
+
+	public static LevelRoadEnd GetLevelRoadEnd(string name) {
+		Transform endTransform = null;
+		if (instance.levelRoadEnds.TryGetValue(name, out endTransform)) {
+			if (endTransform != null) {
+				return endTransform.GetComponent<LevelRoadEnd>();
+			}
+		}
+		return null;
 	}
 
 	public static void SetRequestPath(string path, bool makeAutosave, bool destroyPlayer){

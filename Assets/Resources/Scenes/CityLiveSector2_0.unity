@@ -561,7 +561,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &327497145
 Prefab:
@@ -892,7 +892,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &475546762
 Prefab:
@@ -1180,7 +1180,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100.00006, z: 100.00006}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &790801148
 Prefab:
@@ -1516,6 +1516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: CityLiveSector1_0 to CityLiveSector2_0 [0]
+  overridePlayerRotation: 1
+  resetVelocity: 1
 --- !u!4 &835644857
 Transform:
   m_ObjectHideFlags: 0
@@ -1563,6 +1565,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CityBase_0
   roadEndName: CityLiveSector2_0 to CityBase_0 [0]
+  makeAutosave: 1
+  destroyPlayer: 0
 --- !u!64 &856406351
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1925,7 +1929,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &887981040
 Prefab:
@@ -2677,6 +2681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CityLiveSector3_0
   roadEndName: CityLiveSector2_0 to CityLiveSector3_0 [0]
+  makeAutosave: 1
+  destroyPlayer: 0
 --- !u!64 &1185010210
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3389,19 +3395,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: CityBase_0 to CityLiveSector2_0 [0]
+  overridePlayerRotation: 1
+  resetVelocity: 1
 --- !u!4 &1448670431
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1448670429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.7085806, z: -0, w: 0.70562994}
   m_LocalPosition: {x: 31.5, y: 1.5, z: -73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 56
+  m_LocalEulerAnglesHint: {x: 0, y: -90.239006, z: 0}
 --- !u!1001 &1462033537
 Prefab:
   m_ObjectHideFlags: 0
@@ -3482,6 +3490,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CityLiveSector1_0
   roadEndName: CityLiveSector2_0 to CityLiveSector1_0 [0]
+  makeAutosave: 1
+  destroyPlayer: 0
 --- !u!64 &1551651029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4094,6 +4104,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: CityLiveSector3_0 to CityLiveSector2_0 [0]
+  overridePlayerRotation: 1
+  resetVelocity: 1
 --- !u!4 &1632010392
 Transform:
   m_ObjectHideFlags: 0
@@ -4105,7 +4117,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1633100029
 Mesh:

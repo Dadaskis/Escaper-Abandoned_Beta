@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+using System.Collections;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -216,13 +217,29 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				moveDirection = Vector2.Lerp (moveDirection, new Vector2(m_MoveDir.x, m_MoveDir.z), Time.fixedDeltaTime * 8.0f);
 			}
 
-			m_CollisionFlags = m_CharacterController.Move(new Vector3(moveDirection.x, m_MoveDir.y, moveDirection.y) * Time.fixedDeltaTime);
+			m_CollisionFlags = m_CharacterController.Move (new Vector3 (moveDirection.x, m_MoveDir.y, moveDirection.y) * Time.fixedDeltaTime);
 
             ProgressStepCycle(speed);
             UpdateCameraPosition(speed);
 
 			mouseLook.UpdateCursorLock ();
         }
+
+
+		public void PushController(Vector3 direction) {
+			// Apply an immediate force to the movement direction
+			// This adds to existing velocity rather than replacing it
+
+			// Normalize the direction and apply a push force
+			Vector3 push = direction.normalized * 50.0f; // 50 units/sec push
+
+			// Add to existing move direction
+			m_MoveDir.x += push.x;
+			m_MoveDir.z += push.z;
+
+			// Also affect the CharacterController directly for immediate response
+			m_CharacterController.Move(push * Time.deltaTime);
+		}
 
 
         private void PlayJumpSound()
@@ -347,6 +364,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             mouseLook.LookRotation (transform, m_Camera.transform);
         }
+
+
+		public void SetStandLookAngle(float angle) {
+			mouseLook.SetStandLookAngle (transform, m_Camera.transform, angle);
+		}
 
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
