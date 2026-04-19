@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: StoneMix0
   m_Shader: {fileID: 4800000, guid: c4d6d535af55080458d1b648eb2134ca, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,11 +43,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Displacement1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1f08a910baedd7f4191495a2457ec5b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Displacement2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1f08a910baedd7f4191495a2457ec5b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -67,11 +67,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 669e0ec0a9a731248b8625dd0b73d20e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 669e0ec0a9a731248b8625dd0b73d20e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,11 +83,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Specular1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 978e1b44ce0d3ad40b8faff49c0c7d9b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Specular2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 978e1b44ce0d3ad40b8faff49c0c7d9b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

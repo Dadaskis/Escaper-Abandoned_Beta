@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: MetalMix0
   m_Shader: {fileID: 4800000, guid: c4d6d535af55080458d1b648eb2134ca, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,11 +43,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Displacement1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a20771c482f3345468556be6e6f4e8bf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Displacement2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 26dd8261f6ba95f408d47e489f7804d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -67,11 +67,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: dbbcccb483b6ce44b955841ea08c6905, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3382b8a08458d3f46abfaf7d72f66c80, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,11 +83,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Specular1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cac7cffc1b81dfe4a98482bbde2d64d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Specular2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e82c0f7d83c63554ebf85608954fd7cb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

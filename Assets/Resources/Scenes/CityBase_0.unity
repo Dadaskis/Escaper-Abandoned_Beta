@@ -158,6 +158,29 @@ Prefab:
       propertyPath: m_Intensity
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4262902786220266, guid: 354d2ad883c9a5343a41232bf63e30e0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000000015502468
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262902786220266, guid: 354d2ad883c9a5343a41232bf63e30e0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.009200007
+      objectReference: {fileID: 0}
+    - target: {fileID: 108174341108845974, guid: 354d2ad883c9a5343a41232bf63e30e0,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 108174341108845974, guid: 354d2ad883c9a5343a41232bf63e30e0,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.6218232
+      objectReference: {fileID: 0}
+    - target: {fileID: 108174341108845974, guid: 354d2ad883c9a5343a41232bf63e30e0,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.40570936
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 354d2ad883c9a5343a41232bf63e30e0, type: 2}
   m_IsPrefabParent: 0
@@ -166,7 +189,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh103730
+  m_Name: pb_Mesh293396
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -656,7 +679,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -963,6 +986,29 @@ Prefab:
         type: 2}
       propertyPath: m_Intensity
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262902786220266, guid: 354d2ad883c9a5343a41232bf63e30e0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.0092
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262902786220266, guid: 354d2ad883c9a5343a41232bf63e30e0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108174341108845974, guid: 354d2ad883c9a5343a41232bf63e30e0,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.8235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 108174341108845974, guid: 354d2ad883c9a5343a41232bf63e30e0,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.6218232
+      objectReference: {fileID: 0}
+    - target: {fileID: 108174341108845974, guid: 354d2ad883c9a5343a41232bf63e30e0,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.40570936
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 354d2ad883c9a5343a41232bf63e30e0, type: 2}
