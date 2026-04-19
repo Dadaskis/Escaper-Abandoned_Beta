@@ -1,114 +1,290 @@
 {
-    "name": "4/19/2026 2:41:52 PM Auto Save",
-    "sceneName": "CityBase_0",
+    "name": "4/19/2026 3:45:42 PM Auto Save",
+    "sceneName": "CityBase_3",
     "playerData": {
         "position": {
-            "x": 7.0,
-            "y": 0.4764559864997864,
-            "z": -6.5
+            "x": -0.14058707654476167,
+            "y": 0.05999753624200821,
+            "z": -3.800908327102661
         },
         "cameraRotation": {
-            "x": 0.16848959028720857,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 0.9857034683227539
+            "x": 0.01144845224916935,
+            "y": 0.9379770755767822,
+            "z": -0.03111601062119007,
+            "w": 0.3451080620288849
         },
-        "weaponsInInventory": [],
-        "itemsInInventory": [],
-        "currentWeapon": {
-            "data": {
-                "idlePosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+        "weaponsInInventory": [
+            {
+                "data": {
+                    "idlePosition": {
+                        "x": 0.30000001192092898,
+                        "y": -0.25197410583496096,
+                        "z": 0.6530806422233582
+                    },
+                    "idleRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "sightPosition": {
+                        "x": -0.00099945068359375,
+                        "y": -0.26600074768066409,
+                        "z": 0.5224645137786865
+                    },
+                    "sightRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "downRecoil": 0.10000000149011612,
+                    "upRecoil": 2.0,
+                    "leftRecoil": 0.800000011920929,
+                    "rightRecoil": 0.800000011920929,
+                    "minimalRecoilPushBackPower": 0.20000000298023225,
+                    "maximalRecoilPushBackPower": 0.5,
+                    "fireRate": 600.0,
+                    "damage": 40
                 },
-                "idleRotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 0.0
+                "originalData": {
+                    "idlePosition": {
+                        "x": 0.30000001192092898,
+                        "y": -0.25197410583496096,
+                        "z": 0.6530806422233582
+                    },
+                    "idleRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "sightPosition": {
+                        "x": -0.00099945068359375,
+                        "y": -0.26600074768066409,
+                        "z": 0.5224645137786865
+                    },
+                    "sightRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "downRecoil": 0.10000000149011612,
+                    "upRecoil": 2.0,
+                    "leftRecoil": 0.800000011920929,
+                    "rightRecoil": 0.800000011920929,
+                    "minimalRecoilPushBackPower": 0.20000000298023225,
+                    "maximalRecoilPushBackPower": 0.5,
+                    "fireRate": 600.0,
+                    "damage": 40
                 },
-                "sightPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                "rootPart": {
+                    "name": "MainPart",
+                    "id": 2,
+                    "connections": [
+                        {
+                            "filled": true,
+                            "filledPart": {
+                                "name": "Stock",
+                                "id": 1,
+                                "connections": []
+                            }
+                        },
+                        {
+                            "filled": true,
+                            "filledPart": {
+                                "name": "Pitch",
+                                "id": 1,
+                                "connections": [
+                                    {
+                                        "filled": true,
+                                        "filledPart": {
+                                            "name": "PitchAddition",
+                                            "id": 3,
+                                            "connections": [
+                                                {
+                                                    "filled": true
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "filled": true,
+                            "filledPart": {
+                                "name": "LeftHandGrip",
+                                "id": 14,
+                                "connections": []
+                            }
+                        },
+                        {
+                            "filled": true,
+                            "filledPart": {
+                                "name": "Barrel",
+                                "id": 5,
+                                "connections": []
+                            }
+                        },
+                        {
+                            "filled": true,
+                            "filledPart": {
+                                "name": "SightConnector",
+                                "id": 1,
+                                "connections": [
+                                    {
+                                        "filled": true,
+                                        "filledPart": {
+                                            "name": "Sight",
+                                            "id": 5,
+                                            "connections": []
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "filled": true,
+                            "filledPart": {
+                                "name": "AssaultMag",
+                                "id": 0,
+                                "connections": []
+                            }
+                        }
+                    ]
                 },
-                "sightRotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 0.0
+                "botCase": true,
+                "dropped": true,
+                "position": {
+                    "x": 0.8200183510780335,
+                    "y": 0.10492299497127533,
+                    "z": -4.82478666305542
                 },
-                "downRecoil": 0.0,
-                "upRecoil": 0.0,
-                "leftRecoil": 0.0,
-                "rightRecoil": 0.0,
-                "minimalRecoilPushBackPower": 0.0,
-                "maximalRecoilPushBackPower": 0.0,
-                "fireRate": 0.0,
-                "damage": 0
-            },
-            "originalData": {
-                "idlePosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                "rotation": {
+                    "x": -0.4911598265171051,
+                    "y": -0.5175827741622925,
+                    "z": -0.5061450004577637,
+                    "w": -0.48444557189941409
                 },
-                "idleRotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 0.0
+                "scale": {
+                    "x": 0.40000012516975405,
+                    "y": 0.40000012516975405,
+                    "z": 0.40000003576278689
                 },
-                "sightPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                "item": {
+                    "inventoryID": 0,
+                    "containerID": -1,
+                    "size": {
+                        "x": 4.0,
+                        "y": 2.0
+                    },
+                    "position": {
+                        "x": 11.0,
+                        "y": 4.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.7071067690849304,
+                        "z": 0.0,
+                        "w": 0.7071067690849304
+                    },
+                    "offsetX": -0.05115509033203125,
+                    "offsetZ": -0.4377273619174957,
+                    "pickable": false,
+                    "name": "Assault Rifle Model 2",
+                    "tag": "Weapon",
+                    "rotated": false,
+                    "maxCount": 1,
+                    "currentCount": 1,
+                    "keyName": "AssaultRilfe1",
+                    "worldPosition": {
+                        "x": 0.8200183510780335,
+                        "y": 0.10492299497127533,
+                        "z": -4.82478666305542
+                    },
+                    "removable": true,
+                    "sizeMultiplier": 1.0
                 },
-                "sightRotation": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0,
-                    "w": 0.0
-                },
-                "downRecoil": 0.0,
-                "upRecoil": 0.0,
-                "leftRecoil": 0.0,
-                "rightRecoil": 0.0,
-                "minimalRecoilPushBackPower": 0.0,
-                "maximalRecoilPushBackPower": 0.0,
-                "fireRate": 0.0,
-                "damage": 0
-            },
-            "rootPart": {
-                "name": "",
-                "id": 0,
-                "connections": []
-            },
-            "botCase": false,
-            "dropped": false,
-            "position": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "scale": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "item": {
-                "inventoryID": -1,
+                "currentAmmo": 0
+            }
+        ],
+        "itemsInInventory": [
+            {
+                "inventoryID": 0,
                 "containerID": -1,
                 "size": {
-                    "x": 1.0,
-                    "y": 1.0
+                    "x": 3.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.00133514404296875,
+                "offsetZ": -0.5798095464706421,
+                "pickable": false,
+                "name": "Ammo",
+                "tag": "Ammo",
+                "rotated": false,
+                "maxCount": 120,
+                "currentCount": 107,
+                "keyName": "Rifle0Ammo.MagicalUse",
+                "worldPosition": {
+                    "x": 1.2571725845336915,
+                    "y": 0.2226867377758026,
+                    "z": -5.3260087966918949
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 4.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 4.0,
+                    "y": 4.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.036586761474609378,
+                "offsetZ": -0.6077035665512085,
+                "pickable": false,
+                "name": "Medkit",
+                "tag": "Medkit",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "MedkitStandart",
+                "worldPosition": {
+                    "x": 0.4758497476577759,
+                    "y": -0.8621330261230469,
+                    "z": -3.955770969390869
+                },
+                "removable": true,
+                "sizeMultiplier": 0.699999988079071
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 2.0
                 },
                 "position": {
                     "x": 0.0,
@@ -116,23 +292,319 @@
                 },
                 "rotation": {
                     "x": 0.0,
-                    "y": 0.0,
+                    "y": 0.7071067690849304,
                     "z": 0.0,
-                    "w": 1.0
+                    "w": 0.7071067690849304
                 },
-                "offsetX": 0.0,
-                "offsetZ": 0.0,
-                "pickable": true,
-                "name": "",
-                "tag": "",
+                "offsetX": -0.00133514404296875,
+                "offsetZ": -0.5798095464706421,
+                "pickable": false,
+                "name": "Ammo",
+                "tag": "Ammo",
+                "rotated": false,
+                "maxCount": 120,
+                "currentCount": 82,
+                "keyName": "Rifle0Ammo.MagicalUse",
+                "worldPosition": {
+                    "x": 0.8267611265182495,
+                    "y": -0.772564172744751,
+                    "z": -5.114028453826904
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 4.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 4.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.03658294677734375,
+                "offsetZ": -0.6077098846435547,
+                "pickable": false,
+                "name": "Medkit",
+                "tag": "Medkit",
                 "rotated": false,
                 "maxCount": 1,
                 "currentCount": 1,
-                "keyName": "",
+                "keyName": "MedkitStandart",
                 "worldPosition": {
+                    "x": 0.9456204175949097,
+                    "y": 0.1850244700908661,
+                    "z": -4.955831050872803
+                },
+                "removable": true,
+                "sizeMultiplier": 0.699999988079071
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 12.0,
+                    "y": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.0013275146484375,
+                "offsetZ": -0.5798095464706421,
+                "pickable": false,
+                "name": "Ammo",
+                "tag": "Ammo",
+                "rotated": false,
+                "maxCount": 120,
+                "currentCount": 120,
+                "keyName": "Rifle0Ammo.MagicalUse",
+                "worldPosition": {
+                    "x": 1.414245843887329,
+                    "y": 0.2226836383342743,
+                    "z": -5.468709945678711
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            },
+            {
+                "inventoryID": 0,
+                "containerID": -1,
+                "size": {
+                    "x": 3.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 12.0,
+                    "y": 2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.0013275146484375,
+                "offsetZ": -0.5798095464706421,
+                "pickable": false,
+                "name": "Ammo",
+                "tag": "Ammo",
+                "rotated": false,
+                "maxCount": 120,
+                "currentCount": 120,
+                "keyName": "Rifle0Ammo.MagicalUse",
+                "worldPosition": {
+                    "x": 1.1943355798721314,
+                    "y": 0.2226841151714325,
+                    "z": -5.316795349121094
+                },
+                "removable": true,
+                "sizeMultiplier": 0.5
+            }
+        ],
+        "currentWeapon": {
+            "data": {
+                "idlePosition": {
+                    "x": 0.30000001192092898,
+                    "y": -0.2716407775878906,
+                    "z": 0.6205682158470154
+                },
+                "idleRotation": {
                     "x": 0.0,
                     "y": 0.0,
-                    "z": 0.0
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "sightPosition": {
+                    "x": 0.015777587890625,
+                    "y": -0.24699974060058595,
+                    "z": 0.4964545667171478
+                },
+                "sightRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "downRecoil": 0.10000000149011612,
+                "upRecoil": 2.0,
+                "leftRecoil": 1.2999999523162842,
+                "rightRecoil": 1.2999999523162842,
+                "minimalRecoilPushBackPower": 0.30000001192092898,
+                "maximalRecoilPushBackPower": 1.0,
+                "fireRate": 550.0,
+                "damage": 70
+            },
+            "originalData": {
+                "idlePosition": {
+                    "x": 0.30000001192092898,
+                    "y": -0.2716407775878906,
+                    "z": 0.6205682158470154
+                },
+                "idleRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "sightPosition": {
+                    "x": 0.015777587890625,
+                    "y": -0.24699974060058595,
+                    "z": 0.4964545667171478
+                },
+                "sightRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "downRecoil": 0.10000000149011612,
+                "upRecoil": 2.0,
+                "leftRecoil": 1.2999999523162842,
+                "rightRecoil": 1.2999999523162842,
+                "minimalRecoilPushBackPower": 0.30000001192092898,
+                "maximalRecoilPushBackPower": 1.0,
+                "fireRate": 550.0,
+                "damage": 70
+            },
+            "rootPart": {
+                "name": "MainPart",
+                "id": 3,
+                "connections": [
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "AssaultMag",
+                            "id": 3,
+                            "connections": []
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "SightConnector",
+                            "id": 0,
+                            "connections": [
+                                {
+                                    "filled": true,
+                                    "filledPart": {
+                                        "name": "Sight",
+                                        "id": 3,
+                                        "connections": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "Barrel",
+                            "id": 5,
+                            "connections": []
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "LeftHandGrip",
+                            "id": 0,
+                            "connections": []
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "Pitch",
+                            "id": 1,
+                            "connections": [
+                                {
+                                    "filled": true,
+                                    "filledPart": {
+                                        "name": "PitchAddition",
+                                        "id": 3,
+                                        "connections": [
+                                            {
+                                                "filled": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "filled": true,
+                        "filledPart": {
+                            "name": "Stock",
+                            "id": 3,
+                            "connections": []
+                        }
+                    }
+                ]
+            },
+            "botCase": false,
+            "dropped": false,
+            "position": {
+                "x": -0.016945116221904756,
+                "y": 0.7316712737083435,
+                "z": -4.100480079650879
+            },
+            "rotation": {
+                "x": 0.011448428966104985,
+                "y": 0.9379770159721375,
+                "z": -0.0311159435659647,
+                "w": 0.34510815143585207
+            },
+            "scale": {
+                "x": 0.4600013792514801,
+                "y": 0.4600006937980652,
+                "z": 0.4600008726119995
+            },
+            "item": {
+                "inventoryID": -1,
+                "containerID": 0,
+                "size": {
+                    "x": 5.0,
+                    "y": 2.0
+                },
+                "position": {
+                    "x": 7.0,
+                    "y": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.7071067690849304,
+                    "z": 0.0,
+                    "w": 0.7071067690849304
+                },
+                "offsetX": -0.04514312744140625,
+                "offsetZ": -0.5476585626602173,
+                "pickable": false,
+                "name": "Assault Rifle Model 3",
+                "tag": "Weapon",
+                "rotated": false,
+                "maxCount": 1,
+                "currentCount": 1,
+                "keyName": "AssaultRifle2",
+                "worldPosition": {
+                    "x": -0.016945116221904756,
+                    "y": 0.7316712737083435,
+                    "z": -4.100480079650879
                 },
                 "removable": true,
                 "sizeMultiplier": 1.0
@@ -143,8 +615,8 @@
             "faction": "Player",
             "godMode": false,
             "killed": false,
-            "health": 100,
-            "armor": 0
+            "health": 93,
+            "armor": -1
         }
     },
     "scavsCount": 5,
@@ -152,23 +624,7 @@
     "droppedWeaponsData": [],
     "droppedItemsData": [],
     "questSystemSaveData": {
-        "quests": [
-            {
-                "completed": false,
-                "tag": "10MedkitsQuest",
-                "displayName": "Bring 10 medkits to the chest (green smoke)"
-            },
-            {
-                "completed": false,
-                "tag": "10WeaponsQuest",
-                "displayName": "Bring 10 weapons to the chest (green smoke)"
-            },
-            {
-                "completed": false,
-                "tag": "DestroyTheObstacle0",
-                "displayName": "Destroy the obstacle using tank (red smoke)"
-            }
-        ]
+        "quests": []
     },
     "questGiversSaveData": [
         {
@@ -976,35 +1432,7 @@
     "questChestsSaveData": [
         {
             "currentCount": 0,
-            "saveName": "Base_Weapons0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Weapons0"
-        },
-        {
-            "currentCount": 0,
-            "saveName": "Base_Medkits0"
+            "saveName": "Base_ElectronicParts0"
         }
     ],
     "destroyableObjectsSaveData": []
