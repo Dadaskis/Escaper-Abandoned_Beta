@@ -185,7 +185,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh155526
+  m_Name: pb_Mesh57774
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -344,6 +344,8 @@ MonoBehaviour:
   uiStory: {fileID: 1523786034320782, guid: 9d238b7f5996b4e45b35576b110b6e69, type: 2}
   spawn: {fileID: 1166690185457208, guid: 76b572b165924004099c79a10347c55f, type: 2}
   timer: 0
+  quests:
+  - {fileID: 11400000, guid: ae863decb9797da449cffb7692dcb3d0, type: 2}
 --- !u!64 &293191317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -675,7 +677,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -986,7 +988,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh68046
+  m_Name: pb_Mesh57876
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -1813,13 +1815,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1909047663}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.5, y: -0.5, z: -5}
+  m_LocalRotation: {x: -0, y: -0.86931276, z: -0, w: 0.4942625}
+  m_LocalPosition: {x: 10.958, y: -0.787, z: -4.089}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -120.758, z: 0}
 --- !u!1 &1918753477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,7 +2189,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 1
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89

@@ -1672,7 +1672,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1683,12 +1683,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You went further down the tunnel from the lab. The tunnel was long, about
-    a kilometer. Nobody bothered you while you were walking in the dark. At one point
-    you left this tunnel, when you left you saw flattering terrain, it was an opportunity
-    to hike from the city, since the minefield is far away. But, you just disappear.
-    Nobody shot you, nobody blew you up, you just disappeared on your own. It seems
-    that this story is not as simple as it seems at first glance.
+  m_Text: You've been going in the dark for hours, hearing only the distant gunshots
+    behind. At some point, you've seen the light at the end of the tunnel and you
+    heard nothing but the deafening silence. As you came closer to the blinding light,
+    you exited the stunnel. Finally, freedom, you went past the minefield, you can't
+    hear any gunshots anymore. You have successfully escaped. You decided to walk
+    into the wilderness, but then... Everything in your eyes started to get glitchy,
+    you lost your consciousness and never, ever woke up back again. The end.
 --- !u!222 &871086945
 CanvasRenderer:
   m_ObjectHideFlags: 0

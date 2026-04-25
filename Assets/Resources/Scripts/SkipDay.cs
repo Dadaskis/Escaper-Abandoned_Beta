@@ -9,6 +9,8 @@ public class SkipDay : MonoBehaviour {
 	public GameObject uiStory;
 	public GameObject spawn;
 	public float timer = 0.0f;
+	public List<Quest> quests;
+	
 
 	private bool worked = false;
 
@@ -25,13 +27,30 @@ public class SkipDay : MonoBehaviour {
 			return;
 		}
 		if (!worked) {
-			if (timer > 20.0f) {
+			if (timer > 2.0f) {
 				if (QuestSystem.instance.quests.Count <= 0) {
 					worked = true;
 					SceneManager.LoadScene (sceneName);
 					GraphicsSettings.CheckLights ();
 					Instantiate (uiStory, Player.instance.uiCanvas.transform);
-					Instantiate (spawn);
+					GameObject spawnObj = Instantiate (spawn);
+					Debug.Log (spawnObj.transform.position);
+
+					foreach (Quest quest in quests) {
+						Debug.Log ("[FakeQuestGiver] Adding a quest: " + quest.displayName);
+						QuestSystem.instance.AddQuest (quest.Instance ());
+						SaveSystem.instance.AutoSave ();
+					}
+
+					Debug.Log ("Nullifying chests in SkipDay too");
+					QuestChest[] chests = FindObjectsOfType<QuestChest> ();
+					foreach (QuestChest chest in chests) { 
+						chest.currentCount = 0;
+					}
+					if (SaveSystem.instance.saves [0] != null) {
+						SaveSystem.instance.saves [0].questChestsSaveData = new List<QuestChestSaveData> ();
+					}
+					SaveSystem.instance.AutoSave ();
 				}
 			}
 		}

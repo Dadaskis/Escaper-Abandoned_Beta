@@ -189,7 +189,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh422204
+  m_Name: pb_Mesh44524
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -348,6 +348,10 @@ MonoBehaviour:
   uiStory: {fileID: 1523786034320782, guid: ea98fd13aca68f94b83cb674523ec00e, type: 2}
   spawn: {fileID: 1166690185457208, guid: 25014e3dc86356b4aa06b19fc4e3773a, type: 2}
   timer: 0
+  quests:
+  - {fileID: 11400000, guid: 75a548afd2b53a74fb37d56442bda101, type: 2}
+  - {fileID: 11400000, guid: a2ee922d0744a0a4eb6ba7f9719b143b, type: 2}
+  - {fileID: 11400000, guid: 8f8f7552f2969ed4eb958ff14cff09db, type: 2}
 --- !u!64 &293191317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1169,7 +1173,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh422294
+  m_Name: pb_Mesh44620
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -1493,7 +1497,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1263413841}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: -0.5, z: -6.5}
+  m_LocalPosition: {x: 7, y: -0.781, z: -6.272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1704,13 +1708,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1909047663}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.5, y: -0.5, z: -5}
+  m_LocalRotation: {x: -0, y: -0.7862102, z: -0, w: 0.61795926}
+  m_LocalPosition: {x: 11.278, y: -0.767, z: -4.088}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -103.66501, z: 0}
 --- !u!1 &1918753477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,7 +2082,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 1
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89

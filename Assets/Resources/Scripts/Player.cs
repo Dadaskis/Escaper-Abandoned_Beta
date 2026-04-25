@@ -157,7 +157,19 @@ public class Player : MonoBehaviour {
 		character.onDeath.AddListener (OnDeath);
 	}
 
+	void CompleteAllQuests() {
+		QuestSystem system = QuestSystem.instance;
+		if (system != null) {
+			system.CompleteAllQuests ();
+			Debug.Log ("All quests completed!");
+		}
+	}
+
 	void Update() {
+		if (Input.GetKey (KeyCode.LeftAlt) && Input.GetKeyDown (KeyCode.F5)) {
+			CompleteAllQuests ();
+		}
+
 		Item weaponItem = inventory.containers [0].item;
 		if (weaponItem != null && weapon == null) {
 			Weapon weapon = weaponItem.GetComponent<Weapon> ();

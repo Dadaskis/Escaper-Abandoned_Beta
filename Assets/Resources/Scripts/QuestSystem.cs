@@ -74,6 +74,12 @@ public class QuestSystem : MonoBehaviour {
 		return null;
 	}
 
+	public void CompleteAllQuests() {
+		foreach (Quest quest in quests) {
+			quest.Complete ();
+		}
+	}
+
 	void Update () {
 		List<int> questsToDelete = null;
 
