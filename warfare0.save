@@ -1,17 +1,17 @@
 {
-    "name": "4/25/2026 11:03:53 PM Auto Save",
-    "sceneName": "CityUndergroundLaboratory_4",
+    "name": "4/26/2026 1:04:15 AM Auto Save",
+    "sceneName": "CityBase_0",
     "playerData": {
         "position": {
-            "x": 39.215362548828128,
-            "y": 251.0,
-            "z": -31.352243423461915
+            "x": 7.0,
+            "y": 0.19545598328113557,
+            "z": -6.271999835968018
         },
         "cameraRotation": {
-            "x": 0.0,
-            "y": 0.7845809459686279,
+            "x": 0.16848959028720857,
+            "y": 0.0,
             "z": 0.0,
-            "w": 0.6200264096260071
+            "w": 0.9857034683227539
         },
         "weaponsInInventory": [],
         "itemsInInventory": [],
@@ -152,7 +152,23 @@
     "droppedWeaponsData": [],
     "droppedItemsData": [],
     "questSystemSaveData": {
-        "quests": []
+        "quests": [
+            {
+                "completed": false,
+                "tag": "10MedkitsQuest",
+                "displayName": "Bring 10 medkits to the chest (green smoke)"
+            },
+            {
+                "completed": false,
+                "tag": "10WeaponsQuest",
+                "displayName": "Bring 10 weapons to the chest (green smoke)"
+            },
+            {
+                "completed": false,
+                "tag": "DestroyTheObstacle0",
+                "displayName": "Destroy the obstacle using tank (red smoke)"
+            }
+        ]
     },
     "questGiversSaveData": [
         {
@@ -960,7 +976,35 @@
     "questChestsSaveData": [
         {
             "currentCount": 0,
-            "saveName": "Base_ElectronicParts0"
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Weapons0"
+        },
+        {
+            "currentCount": 0,
+            "saveName": "Base_Medkits0"
         }
     ],
     "destroyableObjectsSaveData": []

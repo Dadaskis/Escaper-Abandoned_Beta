@@ -38,6 +38,7 @@ public class InputManager : MonoBehaviour {
 	public Dictionary<string, string> normalNames = new Dictionary<string, string>();
 
 	void Awake() {
+		Application.runInBackground = true;
 		instance = this;
 		foreach (InputKey key in data.keys) {
 			keys.Add (key.name, key.key);

@@ -8,16 +8,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Input data
-  m_EditorClassIdentifier: Assembly-CSharp::InputData
+  m_Script: {fileID: 11500000, guid: 15f3eaa77b3989d47a171d02ae20b802, type: 3}
+  m_Name: InputData
+  m_EditorClassIdentifier: 
   keys:
   - key: 306
     name: PlayerCrouch
     normalName: Crouch
   - key: 97
     name: PlayerLeft
-    normalName: Go left
+    normalName: Go Left
   - key: 100
     name: PlayerRight
     normalName: Go right
@@ -26,7 +26,7 @@ MonoBehaviour:
     normalName: Go forward
   - key: 115
     name: PlayerBackward
-    normalName: Go backward
+    normalName: Go back
   - key: 9
     name: InventoryOpen
     normalName: Open inventory
